@@ -1,0 +1,35 @@
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter no ? ";
+//     cin>>n;
+//     for(int i=1; i<=n;i++){
+//         //spaces
+//         for(int j =1; j<=n-i; j++){
+//             cout<<" ";
+//         }
+//         //stars
+//         for(int k=1;k<=i;k++){
+//             cout<<k;
+//         }cout<<"\n";
+
+//     }
+// }
+
+// other work for certain condition
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter no ? ";
+    cin>>n;
+    
+    for(int i=1; i<=n;i++){
+        for(int j =1; j<=n; j++){
+            if((i+j) >= n+1) cout<<"x";
+            else cout<<" ";
+        }cout<<"\n";
+
+    }
+}
