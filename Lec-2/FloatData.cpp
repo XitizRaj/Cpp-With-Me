@@ -7,4 +7,5 @@ int main(){
     int q = a/b; // quotient
     int r = a - (b*q); //remainder
     cout<<r;
+
 }
